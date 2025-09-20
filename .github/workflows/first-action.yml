@@ -8,12 +8,12 @@ jobs:
         run: echo "Hello world"
       - name: Print Goodbye
         run: echo "Bye Bye"
-   second_job:
-     runs-on: ubuntu-latest
-     steps:
-       -name: Wow
+  second_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wow
         run: echo "Wow"
-       -name: Owo
+      - name: Owo
         run: echo "Owo"
         
         
